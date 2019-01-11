@@ -1,6 +1,8 @@
 ;-------------------------------------------------------------------------------
 ; MSP430 Assembler Code Template for use with TI Code Composer Studio
-;
+; Uses a Potentiometer for fine tuning stations, two pushbuttons for station jumps
+; Includes code from ARRL QEX Files
+;Written By Jared Brick
 ;
 ;-------------------------------------------------------------------------------
             .cdecls C,LIST,"msp430.h"       ; Include device header file
